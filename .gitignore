@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+*.egg
+.venv
+venv/
+env/
+.uv/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+mongodb_data/
+
+# Storage (mounted volume)
+storage/
+
+# Node (frontend deps - just in case at root)
+node_modules/
